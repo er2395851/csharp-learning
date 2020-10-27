@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP-Socket-Tutorial", "TCP-Socket-Tutorial.csproj", "{703F16D4-4237-4773-B407-BF4830834E7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCP-Socket-Tutorial", "TCP-Socket-Tutorial.csproj", "{703F16D4-4237-4773-B407-BF4830834E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "..\Server\Server.csproj", "{07F70AFD-B2A8-4244-8540-9F1F171DF5FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{703F16D4-4237-4773-B407-BF4830834E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{703F16D4-4237-4773-B407-BF4830834E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{703F16D4-4237-4773-B407-BF4830834E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F70AFD-B2A8-4244-8540-9F1F171DF5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F70AFD-B2A8-4244-8540-9F1F171DF5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F70AFD-B2A8-4244-8540-9F1F171DF5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F70AFD-B2A8-4244-8540-9F1F171DF5FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
